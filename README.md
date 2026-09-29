@@ -1,4 +1,5 @@
 # K4 — Level 3B, Ngày 12: Hạ Tầng Cloud & Deployment (240 phút)
+[![CI/CD Pipeline](https://github.com/The-Spirit-of-the-Beehive/K4-L3B-DAY12-DoHoangQuan-2A202603016-CloudServicesAndDeployment/actions/workflows/ci.yml/badge.svg)](https://github.com/The-Spirit-of-the-Beehive/K4-L3B-DAY12-DoHoangQuan-2A202603016-CloudServicesAndDeployment/actions/workflows/ci.yml)
 
 Đưa một AI agent từ `localhost:8000` lên một địa chỉ công khai mà người khác
 gọi được, có bảo mật, có giới hạn chi phí, và không sập khi bạn deploy bản mới.
@@ -277,12 +278,12 @@ Nộp **link repository** lên Codelab. Repo phải ở chế độ public.
 ## Danh Sách Kiểm Tra Trước Khi Nộp
 
 - [x] Repo đúng tên `K4-L3B-DAY12-<HoVaTen>-<MSSV>-CloudServicesAndDeployment`
-- [ ] `pytest tests/ -v` — đã chạy và biết rõ test nào còn rớt, vì sao
-- [ ] `python grade.py` — xem điểm, mục tiêu ≥ 75/100
-- [ ] `exercises.md` — đủ 10 câu, viết bằng lời của mình
-- [ ] `DEPLOYMENT.md` — có Public URL thật, không dán giá trị API key
-- [ ] `screenshots/` — có ảnh dashboard và ảnh gọi `/health`
-- [ ] `.env` **không** nằm trong repo (`git ls-files | grep .env` chỉ ra `.env.example`)
-- [ ] Không còn `NotImplementedError` nào trong `app/`
-- [ ] Có commit ở nhiều mốc thời gian, không phải một commit duy nhất
+- [x] `pytest tests/ -v` — đã chạy và biết rõ test nào còn rớt, vì sao
+- [x] `python grade.py` — xem điểm, mục tiêu ≥ 75/100
+- [x] `exercises.md` — đủ 10 câu, viết bằng lời của mình
+- [x] `DEPLOYMENT.md` — có Public URL thật, không dán giá trị API key
+- [x] `screenshots/` — có ảnh dashboard và ảnh gọi `/health`
+- [x] `.env` **không** nằm trong repo (`git ls-files | grep .env` chỉ ra `.env.example`)
+- [x] Không còn `NotImplementedError` nào trong `app/`
+- [x] Có commit ở nhiều mốc thời gian, không phải một commit duy nhất
 - [ ] *(Bonus)* `.github/workflows/ci.yml` chạy xanh, README có badge `passing`
