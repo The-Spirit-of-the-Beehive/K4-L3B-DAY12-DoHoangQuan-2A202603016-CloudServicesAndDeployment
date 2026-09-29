@@ -276,7 +276,7 @@ Nộp **link repository** lên Codelab. Repo phải ở chế độ public.
 
 ## Danh Sách Kiểm Tra Trước Khi Nộp
 
-- [ ] Repo đúng tên `K4-L3B-DAY12-<HoVaTen>-<MSSV>-CloudServicesAndDeployment`
+- [x] Repo đúng tên `K4-L3B-DAY12-<HoVaTen>-<MSSV>-CloudServicesAndDeployment`
 - [ ] `pytest tests/ -v` — đã chạy và biết rõ test nào còn rớt, vì sao
 - [ ] `python grade.py` — xem điểm, mục tiêu ≥ 75/100
 - [ ] `exercises.md` — đủ 10 câu, viết bằng lời của mình
