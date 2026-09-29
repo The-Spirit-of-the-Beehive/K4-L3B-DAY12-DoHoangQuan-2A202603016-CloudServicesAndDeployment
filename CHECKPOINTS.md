@@ -75,8 +75,7 @@ Redis; liveness/readiness phản ánh shutdown; SIGTERM/SIGINT được chuyển
 **Cần hiểu:** stateless service, khác nhau giữa liveness và readiness, cách
 graceful shutdown tránh làm rớt request.
 
-**Tự kiểm tra:** `pytest tests/test_cp4.py -v`; nếu có Docker, thử scale nhiều
-instance theo hướng dẫn trong `LAB_GUIDE.md`.
+**Tự kiểm tra:** `pytest tests/test_cp4.py -v`; nếu có Docker, thử scale nhiều instance theo hướng dẫn trong `LAB_GUIDE.md`.
 
 ## CP5 — Cloud Deployment
 
