@@ -4,3 +4,37 @@
 
 .git
 .gitignore
+
+# Environment variables & secrets
+.env
+.env*
+*.env
+
+# Python caches & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Testing & linting caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Docker & IDE
+.dockerignore
+Dockerfile*
+docker-compose*.yml
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary & log files
+*.log
+.DS_Store
